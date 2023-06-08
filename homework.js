@@ -111,7 +111,7 @@ person.age = 9;
 
 //6. Create a hamster maned "Gus"
 const hamster = new Hamster("Gus");
-console.log(person.byHamster());
+// console.log(person.byHamster());
 
 //7. Set Gus owner to the string Timmy
 person.owner = hamster.owner = person.getName;
